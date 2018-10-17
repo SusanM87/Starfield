@@ -45,6 +45,7 @@ class NormalParticle implements Particles
     myX = myX + Math.cos(myAngle)*mySpeed;
     myY = myY + Math.sin(myAngle)*mySpeed;
     myColor = color(r,0,0);
+  }
   public void show()
   {
     noStroke();
